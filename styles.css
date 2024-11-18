@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+}
+
+.text-center {
+  color: black;
+  text-align: center;     
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 10px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+header img {
+    height: 60px; 
+    width: auto; 
+    margin-bottom: 10px; 
+    display: block; 
+}
+
+
+
+@media (max-width: 576px) {
+    header img {
+        height: 50px; 
+    }
+}
+
+footer.tres-pesos {
+    background-color: #343a40; 
+    color: #ffffff;           
+    text-align: center;       
+    padding: 15px 0;          
+    border-top: 1px solid #ddd; 
+    font-size: 16px;          
+}
+
+
+@media (max-width: 576px) {
+    footer.tres-pesos {
+        font-size: 14px;      
+        padding: 10px 0;      
+    }
+}
